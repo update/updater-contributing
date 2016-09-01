@@ -1,0 +1,52 @@
+{
+  "name": "updater-contributing",
+  "description": "Moves CONTRIBUTING.md, ISSUE_TEMPLATE and PULL_REQUEST_TEMPLATE files to the `.github` directory (with or without `.md` extension). Use from the command line when Update's CLI is installed globally, or use as a plugin in your own updater.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/update/updater-contributing",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "update/updater-contributing",
+  "bugs": {
+    "url": "https://github.com/update/updater-contributing/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "updatefile.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "delete": "^0.3.2",
+    "is-valid-app": "^0.2.0"
+  },
+  "devDependencies": {
+    "copy": "^0.3.0",
+    "mocha": "^3.0.2",
+    "npm-install-global": "^0.1.2",
+    "update": "^0.7.3",
+    "verb-generate-readme": "^0.1.30",
+    "verb-trees": "^0.1.0"
+  },
+  "keywords": [
+    "contributing",
+    "fix",
+    "lint",
+    "linter",
+    "maintain",
+    "plugin",
+    "plugins",
+    "up-to-date",
+    "update",
+    "update-plugin",
+    "update-updater",
+    "updater",
+    "updaterplugin"
+  ]
+}
