@@ -1,7 +1,7 @@
 {
   "name": "updater-contributing",
   "description": "Moves CONTRIBUTING.md, ISSUE_TEMPLATE and PULL_REQUEST_TEMPLATE files to the `.github` directory (with or without `.md` extension). Use from the command line when Update's CLI is installed globally, or use as a plugin in your own updater.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/update/updater-contributing",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "update/updater-contributing",
